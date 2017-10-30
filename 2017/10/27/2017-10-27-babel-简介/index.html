@@ -3,21 +3,21 @@
 <head>
     <meta charset="utf-8">
     
-    <title>2017.10.27 babel 简介 | 小T在加油</title>
+    <title>Babel 介绍 | 小T在加油</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="description" content="babel是什么？ 简单来说，Babel 用于转化你的 JavaScript 代码。">
+    <meta name="description" content="Babel是什么？ ECMAScript 6 是一个泛指，含义是5.1版本后的JavaScript的下一代标准，涵盖了ES2015, ES2016, ES2017等。Babel转码器是一个广泛使用的ES6转码器，可以将ES6转码为ES5。简单来说，Babel 用于转化你的 JavaScript 代码。  Babel 功能介绍 Babel 是一个转换编译器，它能将 ES6 转换成可以在浏览器中运行的">
 <meta name="keywords" content="技术文档">
 <meta property="og:type" content="article">
-<meta property="og:title" content="2017.10.27 babel 简介">
+<meta property="og:title" content="Babel 介绍">
 <meta property="og:url" content="http://toddy.wang/2017/10/27/2017-10-27-babel-简介/index.html">
 <meta property="og:site_name" content="小T在加油">
-<meta property="og:description" content="babel是什么？ 简单来说，Babel 用于转化你的 JavaScript 代码。">
+<meta property="og:description" content="Babel是什么？ ECMAScript 6 是一个泛指，含义是5.1版本后的JavaScript的下一代标准，涵盖了ES2015, ES2016, ES2017等。Babel转码器是一个广泛使用的ES6转码器，可以将ES6转码为ES5。简单来说，Babel 用于转化你的 JavaScript 代码。  Babel 功能介绍 Babel 是一个转换编译器，它能将 ES6 转换成可以在浏览器中运行的">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="http://toddy.wang/img/2017/10/WX20171027-183534.png">
-<meta property="og:updated_time" content="2017-10-27T10:42:00.000Z">
+<meta property="og:updated_time" content="2017-10-30T11:07:17.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="2017.10.27 babel 简介">
-<meta name="twitter:description" content="babel是什么？ 简单来说，Babel 用于转化你的 JavaScript 代码。">
+<meta name="twitter:title" content="Babel 介绍">
+<meta name="twitter:description" content="Babel是什么？ ECMAScript 6 是一个泛指，含义是5.1版本后的JavaScript的下一代标准，涵盖了ES2015, ES2016, ES2017等。Babel转码器是一个广泛使用的ES6转码器，可以将ES6转码为ES5。简单来说，Babel 用于转化你的 JavaScript 代码。  Babel 功能介绍 Babel 是一个转换编译器，它能将 ES6 转换成可以在浏览器中运行的">
 <meta name="twitter:image" content="http://toddy.wang/img/2017/10/WX20171027-183534.png">
     
 
@@ -183,7 +183,7 @@
                 
     
         <h1 class="article-title" itemprop="name">
-            2017.10.27 babel 简介
+            Babel 介绍
         </h1>
     
 
@@ -212,7 +212,7 @@
         
 <div class="article-gallery">
     
-    <a class="gallery-item" href="/img/2017/10/WX20171027-183534.png" rel="gallery_cj99rp0sp0000g45ptv18aitb">
+    <a class="gallery-item" href="/img/2017/10/WX20171027-183534.png" rel="gallery_cj9e2yo8w00009t5p9q3lf4lt">
         <img src="/img/2017/10/WX20171027-183534.png" itemprop="image" />
     </a>
     
@@ -221,9 +221,14 @@
         <div class="article-entry" itemprop="articleBody">
         
             
-            <h2 id="babel是什么？"><a href="#babel是什么？" class="headerlink" title="babel是什么？"></a>babel是什么？</h2><blockquote>
-<p>简单来说，Babel 用于转化你的 JavaScript 代码。</p>
+            <h2 id="Babel是什么？"><a href="#Babel是什么？" class="headerlink" title="Babel是什么？"></a>Babel是什么？</h2><blockquote>
+<p>ECMAScript 6 是一个泛指，含义是5.1版本后的JavaScript的下一代标准，涵盖了ES2015, ES2016, ES2017等。<br>Babel转码器是一个广泛使用的ES6转码器，可以将ES6转码为ES5。<br>简单来说，Babel 用于转化你的 JavaScript 代码。</p>
 </blockquote>
+<h2 id="Babel-功能介绍"><a href="#Babel-功能介绍" class="headerlink" title="Babel 功能介绍"></a>Babel 功能介绍</h2><blockquote>
+<p>Babel 是一个转换编译器，它能将 ES6 转换成可以在浏览器中运行的代码。Babel 可以处理 ES6 的所有新语法，并且内置了 React JSX 扩展及 Flow 类型注解支持。</p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line">|:-------------------------:|:--------------------------:|</div><div class="line">| Arrow functions           | Function bind              |</div><div class="line">| Async functions           | Generators                 |</div><div class="line">| Async generator functions | Modules                    |</div><div class="line">| Block scoping             | Module export extensions   |</div><div class="line">| Block scoped functions    | New literals               |</div><div class="line">| Classes                   | Object rest/spread         |</div><div class="line">| Class properties          | Property method assignment |</div><div class="line">| Computed property names   | Property name shorthand    |</div><div class="line">| Constants                 | Rest parameters            |</div><div class="line">| Decorators                | Spread                     |</div><div class="line">| Default parameters        | Sticky regex               |</div><div class="line">| Destructuring             | Template literals          |</div><div class="line">| Do expressions            | Trailing function commas   |</div><div class="line">| Exponentiation operator   | Type annotations           |</div><div class="line">| For-of                    | Unicode regex              |</div><div class="line">|:-------------------------:|:--------------------------:|</div></pre></td></tr></table></figure>
+<p>官网地址：<a href="http://babeljs.io/" target="_blank" rel="external">http://babeljs.io/</a></p>
 
         
         </div>
@@ -319,7 +324,7 @@ window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMin
                         
                         <div class="item-inner">
                             <p class="item-category"></p>
-                            <p class="item-title"><a href="/2017/10/27/2017-10-27-babel-简介/" class="title">2017.10.27 babel 简介</a></p>
+                            <p class="item-title"><a href="/2017/10/27/2017-10-27-babel-简介/" class="title">Babel 介绍</a></p>
                             <p class="item-date"><time datetime="2017-10-27T10:37:05.000Z" itemprop="datePublished">2017-10-27</time></p>
                         </div>
                     </li>
