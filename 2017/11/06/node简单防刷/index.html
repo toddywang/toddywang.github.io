@@ -3,18 +3,19 @@
 <head>
     <meta charset="utf-8">
     
-    <title>标签: 分享日志 | 小T在加油</title>
+    <title>node简单防刷 | 小T在加油</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="description" content="做最好的前端分享">
-<meta property="og:type" content="website">
-<meta property="og:title" content="小T在加油">
-<meta property="og:url" content="http://toddy.wang/tags/分享日志/index.html">
+    <meta name="description" content="简单的安全防范web时代的今天，我们经常会暴露一些接口给外网，但是很多作为前端工程师，也是需要在互联网的今天做一点攻防。不能直接让人直接访问你的接口，所以，本篇文章主要简单的介绍下。如何的简单的实现防刷。 文章主要采用node.js作为介绍。 首先，我们理解下，一个接口没有任何防刷。你只需要打开浏览器，直接找到对应的接口，直接刷新就可以直接搞定接口。这样我们的风险还是很高的。让刷的难度稍微高一点。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="node简单防刷">
+<meta property="og:url" content="http://toddy.wang/2017/11/06/node简单防刷/index.html">
 <meta property="og:site_name" content="小T在加油">
-<meta property="og:description" content="做最好的前端分享">
+<meta property="og:description" content="简单的安全防范web时代的今天，我们经常会暴露一些接口给外网，但是很多作为前端工程师，也是需要在互联网的今天做一点攻防。不能直接让人直接访问你的接口，所以，本篇文章主要简单的介绍下。如何的简单的实现防刷。 文章主要采用node.js作为介绍。 首先，我们理解下，一个接口没有任何防刷。你只需要打开浏览器，直接找到对应的接口，直接刷新就可以直接搞定接口。这样我们的风险还是很高的。让刷的难度稍微高一点。">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2017-11-06T13:02:47.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="小T在加油">
-<meta name="twitter:description" content="做最好的前端分享">
+<meta name="twitter:title" content="node简单防刷">
+<meta name="twitter:description" content="简单的安全防范web时代的今天，我们经常会暴露一些接口给外网，但是很多作为前端工程师，也是需要在互联网的今天做一点攻防。不能直接让人直接访问你的接口，所以，本篇文章主要简单的介绍下。如何的简单的实现防刷。 文章主要采用node.js作为介绍。 首先，我们理解下，一个接口没有任何防刷。你只需要打开浏览器，直接找到对应的接口，直接刷新就可以直接搞定接口。这样我们的风险还是很高的。让刷的难度稍微高一点。">
     
 
     
@@ -171,45 +172,118 @@
 </aside>
 
             
-            <section id="main">
-<div class="timeline timeline-wrap">
-    <div class="timeline-row timeline-row-major">
-        <span class="node"><i class="fa fa-tag"></i></span>
-        <h1 class="title">#分享日志</h1>
-    </div>
-    
-        <div class="timeline-row">
-            <span class="node"></span>
-            <div class="content">
+            <section id="main"><article id="post-node简单防刷" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+            <header class="article-header">
                 
     
-        <h1 itemprop="name">
-            <a class="timeline-article-title" href="/2016/06/17/webpack从入门到精通（一）/">webpack从入门到精通（一）</a>
+        <h1 class="article-title" itemprop="name">
+            node简单防刷
         </h1>
     
 
-                <div class="article-meta">
-                    
+                
+                    <div class="article-meta">
+                        
     <div class="article-date">
         <i class="fa fa-calendar"></i>
-        <a href="/2016/06/17/webpack从入门到精通（一）/">
-            <time datetime="2016-06-17T10:23:44.000Z" itemprop="datePublished">2016-06-17</time>
+        <a href="/2017/11/06/node简单防刷/">
+            <time datetime="2017-11-06T12:51:29.000Z" itemprop="datePublished">2017-11-06</time>
         </a>
     </div>
 
 
-                    
-                    
-    <div class="article-tag">
-        <i class="fa fa-tag"></i>
-        <a class="tag-link" href="/tags/分享日志/">分享日志</a>
-    </div>
+                        
+                        
+                    </div>
+                
+            </header>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+            
+            <h2 id="简单的安全防范"><a href="#简单的安全防范" class="headerlink" title="简单的安全防范"></a>简单的安全防范</h2><p>web时代的今天，我们经常会暴露一些接口给外网，但是很多作为前端工程师，也是需要在互联网的今天做一点攻防。不能直接让人直接访问你的接口，所以，本篇文章主要简单的介绍下。如何的简单的实现防刷。</p>
+<p>文章主要采用node.js作为介绍。</p>
+<p>首先，我们理解下，一个接口没有任何防刷。你只需要打开浏览器，直接找到对应的接口，直接刷新就可以直接搞定接口。这样我们的风险还是很高的。让刷的难度稍微高一点。</p>
+<p>最简单的做法就是，Token验证和访问限制。</p>
+<p>1.我们需要server端生成一段随机数。<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">injectAccessToken(req, res, next) &#123;</div><div class="line">    req._access_token = Math.random().toString(26).slice(2);</div><div class="line">    next();</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<p>2.把Token注入到页面中<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">webInject:function(html,token,callback)&#123;</div><div class="line">    var htmlEndIndex = html.indexOf(&apos;&lt;/html&gt;&apos;);</div><div class="line">    var tokenScript = &apos;&lt;script&gt;window.&apos; + this.config.webTokenVarName + &apos;=&apos; + token + &apos;&lt;/script&gt;&apos;;</div><div class="line">    var prevHtml = html.substring(0, htmlEndIndex);</div><div class="line">    var nextHtml = html.substr(htmlEndIndex);</div><div class="line">    prevHtml += tokenScript;</div><div class="line">    prevHtml += nextHtml;</div><div class="line">    callback(null, prevHtml);</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<p>待续….<br>3.页面请求把Token带回来</p>
+<p>4.校验token是否合法</p>
+<p>这样就实现了最简单的Token防刷</p>
 
-                </div>
-            </div>
+        
         </div>
-    
+        <footer class="article-footer">
+            <div class="share-container">
+
+
+    <div class="bdsharebuttonbox">
+    <a href="#" class="bds_more" data-cmd="more">分享到：</a>
+    <a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间">QQ空间</a>
+    <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博">新浪微博</a>
+    <a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博">腾讯微博</a>
+    <a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网">人人网</a>
+    <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信">微信</a>
 </div>
+<script>
+window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{"bdSize":16}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+<style>
+    .bdshare_popup_box {
+        border-radius: 4px;
+        border: #e1e1e1 solid 1px;
+    }
+    .bdshare-button-style0-16 a,
+    .bdshare-button-style0-16 .bds_more {
+        padding-left: 20px;
+        margin: 6px 10px 6px 0;
+    }
+    .bdshare_dialog_list a,
+    .bdshare_popup_list a,
+    .bdshare_popup_bottom a {
+        font-family: 'Microsoft Yahei';
+    }
+    .bdshare_popup_top {
+        display: none;
+    }
+    .bdshare_popup_bottom {
+        height: auto;
+        padding: 5px;
+    }
+</style>
+
+
+</div>
+
+            
+    
+
+        </footer>
+    </div>
+    
+        
+<nav id="article-nav">
+    
+    
+        <a href="/2017/11/06/dev-reading/" id="article-nav-older" class="article-nav-link-wrap">
+            <strong class="article-nav-caption">下一篇</strong>
+            <div class="article-nav-title">读书笔记</div>
+        </a>
+    
+</nav>
+
+
+    
+</article>
+
+
+    
+    
+
 </section>
             
                 
