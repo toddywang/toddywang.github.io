@@ -2,30 +2,58 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://toddy.wang/2017/11/07/webpack%E7%AE%80%E5%8D%95%E4%BB%8B%E7%BB%8D/</loc>
+    <loc>http://toddy.wang/2017/11/07/2.%5B%E7%AE%97%E6%B3%95%5D%E6%AF%8F%E5%A4%A9%E5%AD%A6%E4%B9%A0%E4%B8%80%E7%82%B9%E7%AE%97%E6%B3%95/</loc>
     
-    <lastmod>2017-11-07T03:59:35.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://toddy.wang/2017/11/06/dev-reading/</loc>
-    
-    <lastmod>2017-11-07T03:59:31.000Z</lastmod>
+    <lastmod>2017-11-07T08:06:33.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://toddy.wang/2017/11/06/node%E7%AE%80%E5%8D%95%E9%98%B2%E5%88%B7/</loc>
+    <loc>http://toddy.wang/2017/11/07/2.%5B%E7%AE%97%E6%B3%95%5D%E4%B8%BA%E4%BB%80%E4%B9%88%E6%AF%8F%E5%A4%A9%E5%AD%A6%E4%B9%A0%E4%B8%80%E7%82%B9%E7%AE%97%E6%B3%95/</loc>
     
-    <lastmod>2017-11-07T03:58:28.000Z</lastmod>
+    <lastmod>2017-11-07T08:06:29.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://toddy.wang/2017/11/07/yield/</loc>
+    <loc>http://toddy.wang/2017/11/06/1.%5Breading%5Ddev-reading/</loc>
     
-    <lastmod>2017-11-07T03:57:57.000Z</lastmod>
+    <lastmod>2017-11-07T08:03:54.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://toddy.wang/2017/11/07/1.%5Breading%5Dyield/</loc>
+    
+    <lastmod>2017-11-07T07:52:33.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://toddy.wang/2017/11/07/1.%5Breading%5Dwebpack%E7%AE%80%E5%8D%95%E4%BB%8B%E7%BB%8D/</loc>
+    
+    <lastmod>2017-11-07T07:52:29.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://toddy.wang/2016/06/17/1.%5Breading%5Dwebpack%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A%EF%BC%88%E4%B8%80%EF%BC%89/</loc>
+    
+    <lastmod>2017-11-07T07:52:20.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://toddy.wang/2017/11/06/1.%5Breading%5Dnode%E7%AE%80%E5%8D%95%E9%98%B2%E5%88%B7/</loc>
+    
+    <lastmod>2017-11-07T07:52:16.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://toddy.wang/2017/11/07/1.%5Breading%5Des6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</loc>
+    
+    <lastmod>2017-11-07T07:52:11.000Z</lastmod>
     
   </url>
   
@@ -51,7 +79,7 @@
   </url>
   
   <url>
-    <loc>http://toddy.wang/2016/06/17/webpack%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A%EF%BC%88%E4%B8%80%EF%BC%89/</loc>
+    <loc>http://toddy.wang/2016/06/23/Hexo%E4%B9%A6%E5%86%99%E5%8D%9A%E5%AE%A2/</loc>
     
     <lastmod>2017-10-27T09:31:42.000Z</lastmod>
     
@@ -59,13 +87,6 @@
   
   <url>
     <loc>http://toddy.wang/2016/04/20/2016-04-20/</loc>
-    
-    <lastmod>2017-10-27T09:31:42.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://toddy.wang/2016/06/23/Hexo%E4%B9%A6%E5%86%99%E5%8D%9A%E5%AE%A2/</loc>
     
     <lastmod>2017-10-27T09:31:42.000Z</lastmod>
     

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://toddy.wang/"/>
-  <updated>2017-11-07T03:59:35.000Z</updated>
+  <updated>2017-11-07T08:06:29.000Z</updated>
   <id>http://toddy.wang/</id>
   
   <author>
@@ -17,11 +17,87 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>为什么每天学习一点算法</title>
+    <link href="http://toddy.wang/2017/11/07/2.%5B%E7%AE%97%E6%B3%95%5D%E4%B8%BA%E4%BB%80%E4%B9%88%E6%AF%8F%E5%A4%A9%E5%AD%A6%E4%B9%A0%E4%B8%80%E7%82%B9%E7%AE%97%E6%B3%95/"/>
+    <id>http://toddy.wang/2017/11/07/2.[算法]为什么每天学习一点算法/</id>
+    <published>2017-11-07T07:47:48.000Z</published>
+    <updated>2017-11-07T08:06:29.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="为什么算法？"><a href="#为什么算法？" class="headerlink" title="为什么算法？"></a>为什么算法？</h2><blockquote><p>大家都知道，我作为前端工程师，那么传统类型的前端，大家都认为的是只需要简单的写一些页面，和页面交互就可以完成的工作，但是，近几年对前端工程师的热度越来越高，对前端的要求也越来越高，很多时候前端需要完成更加复杂的交互和业务功能。<br>前端工程师也在成长，这些年推出了很多模块化，组件化，当然前端的开发工程也不是之前的html和css以及js那么简单的，注入了工程化东西。gulp,webpack都是来打包和编译我们的js和前端工程的。<br>css也有了预处理语言，scss和less大家应该不会陌生。<br>。。。<br>其他前端这几年的框架也很多这里不去论述框架，react/vue。</p></blockquote><h2 id="算法重要吗？"><a href="#算法重要吗？" class="headerlink" title="算法重要吗？"></a>算法重要吗？</h2><blockquote><p>我们在开发前端的时候，开始使用后端语言，node.js成为了前端工程师的首选，当然很多公司也在用java，php，甚至很多大型互联网公司还在用C#，所以，这个时候的前端算法就体现的很重要。<br>大部分前端工程师，因为这几年的热门，通过培训机构出来，甚至其他专业转过来，对计算机软件的思维理解不够深入，当然前端上手很容易，成为了他们的首选。</p></blockquote><h2 id="每天学习一点算法"><a href="#每天学习一点算法" class="headerlink" title="每天学习一点算法"></a>每天学习一点算法</h2><blockquote><p>笔者大学软件工程专业出身，在学校的时候已经开始和老师同学开始项目开发，java、php、c#、node.js都有实际的项目开发经验，当然前端的开发浪潮本人也身在其中。<br>当然前端只是完成现有的功能也是可以的，如果你要想做一个好的前端工程师，你得好好学习算法，笔者也是专业出身，现在对算法也是很多不懂，所以，今天开始，会同大家一起每天学习一点算法，同事记录笔记。</p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;为什么算法？&quot;&gt;&lt;a href=&quot;#为什么算法？&quot; class=&quot;headerlink&quot; title=&quot;为什么算法？&quot;&gt;&lt;/a&gt;为什么算法？&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;大家都知道，我作为前端工程师，那么传统类型的前端，大家都认为的是只需要简单的写一些
+      
+    
+    </summary>
+    
+    
+      <category term="学习一点算法" scheme="http://toddy.wang/tags/%E5%AD%A6%E4%B9%A0%E4%B8%80%E7%82%B9%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>每天学习一点算法</title>
+    <link href="http://toddy.wang/2017/11/07/2.%5B%E7%AE%97%E6%B3%95%5D%E6%AF%8F%E5%A4%A9%E5%AD%A6%E4%B9%A0%E4%B8%80%E7%82%B9%E7%AE%97%E6%B3%95/"/>
+    <id>http://toddy.wang/2017/11/07/2.[算法]每天学习一点算法/</id>
+    <published>2017-11-07T07:46:13.000Z</published>
+    <updated>2017-11-07T08:06:33.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>目录</p><ul><li><a href="/2017/11/07/2.[算法]为什么每天学习一点算法">为什么每天学一点算法</a></li><li>…</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;目录&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;/2017/11/07/2.[算法]为什么每天学习一点算法&quot;&gt;为什么每天学一点算法&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;…&lt;/li&gt;
+&lt;/ul&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="学习一点算法" scheme="http://toddy.wang/tags/%E5%AD%A6%E4%B9%A0%E4%B8%80%E7%82%B9%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>es6读书笔记</title>
+    <link href="http://toddy.wang/2017/11/07/1.%5Breading%5Des6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    <id>http://toddy.wang/2017/11/07/1.[reading]es6读书笔记/</id>
+    <published>2017-11-07T07:40:53.000Z</published>
+    <updated>2017-11-07T07:52:11.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="es6读书笔记"><a href="#es6读书笔记" class="headerlink" title="es6读书笔记"></a>es6读书笔记</h2><blockquote><p>本文主要学习和复习es6，学习同时会对lodash.js进行分析.感谢<a href="http://es6.ruanyifeng.com/" target="_blank" rel="external">阮一峰老师</a></p></blockquote><h2 id="Promise-对象"><a href="#Promise-对象" class="headerlink" title="Promise 对象"></a>Promise 对象</h2>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;es6读书笔记&quot;&gt;&lt;a href=&quot;#es6读书笔记&quot; class=&quot;headerlink&quot; title=&quot;es6读书笔记&quot;&gt;&lt;/a&gt;es6读书笔记&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;本文主要学习和复习es6，学习同时会对lodash.js进行分析.感谢&lt;a
+      
+    
+    </summary>
+    
+    
+      <category term="读书笔记" scheme="http://toddy.wang/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
     <title>webpack简单介绍</title>
-    <link href="http://toddy.wang/2017/11/07/webpack%E7%AE%80%E5%8D%95%E4%BB%8B%E7%BB%8D/"/>
-    <id>http://toddy.wang/2017/11/07/webpack简单介绍/</id>
+    <link href="http://toddy.wang/2017/11/07/1.%5Breading%5Dwebpack%E7%AE%80%E5%8D%95%E4%BB%8B%E7%BB%8D/"/>
+    <id>http://toddy.wang/2017/11/07/1.[reading]webpack简单介绍/</id>
     <published>2017-11-07T03:59:12.000Z</published>
-    <updated>2017-11-07T03:59:35.000Z</updated>
+    <updated>2017-11-07T07:52:29.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="webpack简介"><a href="#webpack简介" class="headerlink" title="webpack简介"></a>webpack简介</h2><h3 id="什么是webpack"><a href="#什么是webpack" class="headerlink" title="什么是webpack"></a>什么是webpack</h3><p>WebPack可以看做是模块打包机：它做的事情是，分析你的项目结构，找到JavaScript模块以及其它的一些浏览器不能直接运行的拓展语言（Scss，TypeScript等），并将其转换和打包为合适的格式供浏览器使用。</p><h3 id="为什么webpack？"><a href="#为什么webpack？" class="headerlink" title="为什么webpack？"></a>为什么webpack？</h3><p>现今的很多网页其实可以看做是功能丰富的应用，它们拥有着复杂的JavaScript代码和一大堆依赖包。为了简化开发的复杂度，前端社区涌现出了很多好的实践方法</p><p>模块化，让我们可以把复杂的程序细化为小的文件;<br>类似于TypeScript这种在JavaScript基础上拓展的开发语言：使我们能够实现目前版本的JavaScript不能直接使用的特性，并且之后还能转换为JavaScript文件使浏览器可以识别；<br>Scss，less等CSS预处理器<br>…<br>这些改进确实大大的提高了我们的开发效率，但是利用它们开发的文件往往需要进行额外的处理才能让浏览器识别,而手动处理又是非常繁琐的，这就为WebPack类的工具的出现提供了需求。</p><h2 id="webpack配置"><a href="#webpack配置" class="headerlink" title="webpack配置"></a>webpack配置</h2><h2 id="webpack插件"><a href="#webpack插件" class="headerlink" title="webpack插件"></a>webpack插件</h2><h2 id="webpack插件编写"><a href="#webpack插件编写" class="headerlink" title="webpack插件编写"></a>webpack插件编写</h2><h2 id="webpack2-amp-amp-webpack3？"><a href="#webpack2-amp-amp-webpack3？" class="headerlink" title="webpack2&amp; &amp; webpack3？"></a>webpack2&amp; &amp; webpack3？</h2>]]></content>
     
@@ -35,28 +111,32 @@
     </summary>
     
     
+      <category term="读书笔记" scheme="http://toddy.wang/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
   </entry>
   
   <entry>
     <title>yield</title>
-    <link href="http://toddy.wang/2017/11/07/yield/"/>
-    <id>http://toddy.wang/2017/11/07/yield/</id>
+    <link href="http://toddy.wang/2017/11/07/1.%5Breading%5Dyield/"/>
+    <id>http://toddy.wang/2017/11/07/1.[reading]yield/</id>
     <published>2017-11-07T03:57:57.000Z</published>
-    <updated>2017-11-07T03:57:57.000Z</updated>
+    <updated>2017-11-07T07:52:33.000Z</updated>
     
     <summary type="html">
     
     </summary>
     
     
+      <category term="读书笔记" scheme="http://toddy.wang/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
   </entry>
   
   <entry>
     <title>node简单防刷</title>
-    <link href="http://toddy.wang/2017/11/06/node%E7%AE%80%E5%8D%95%E9%98%B2%E5%88%B7/"/>
-    <id>http://toddy.wang/2017/11/06/node简单防刷/</id>
+    <link href="http://toddy.wang/2017/11/06/1.%5Breading%5Dnode%E7%AE%80%E5%8D%95%E9%98%B2%E5%88%B7/"/>
+    <id>http://toddy.wang/2017/11/06/1.[reading]node简单防刷/</id>
     <published>2017-11-06T12:51:29.000Z</published>
-    <updated>2017-11-07T03:58:28.000Z</updated>
+    <updated>2017-11-07T07:52:16.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="简单的安全防范"><a href="#简单的安全防范" class="headerlink" title="简单的安全防范"></a>简单的安全防范</h2><p>web时代的今天，我们经常会暴露一些接口给外网，但是很多作为前端工程师，也是需要在互联网的今天做一点攻防。不能直接让人直接访问你的接口，所以，本篇文章主要简单的介绍下。如何的简单的实现防刷。</p><p>文章主要采用node.js作为介绍。</p><p>首先，我们理解下，一个接口没有任何防刷。你只需要打开浏览器，直接找到对应的接口，直接刷新就可以直接搞定接口。这样我们的风险还是很高的。让刷的难度稍微高一点。</p><p>最简单的做法就是，Token验证和访问限制。</p><p>1.我们需要server端生成一段随机数。<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">injectAccessToken(req, res, next) &#123;</div><div class="line">    req._access_token = Math.random().toString(26).slice(2);</div><div class="line">    next();</div><div class="line">&#125;</div></pre></td></tr></table></figure></p><p>2.把Token注入到页面中<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">webInject:function(html,token,callback)&#123;</div><div class="line">    var htmlEndIndex = html.indexOf(&apos;&lt;/html&gt;&apos;);</div><div class="line">    var tokenScript = &apos;&lt;script&gt;window.&apos; + this.config.webTokenVarName + &apos;=&apos; + token + &apos;&lt;/script&gt;&apos;;</div><div class="line">    var prevHtml = html.substring(0, htmlEndIndex);</div><div class="line">    var nextHtml = html.substr(htmlEndIndex);</div><div class="line">    prevHtml += tokenScript;</div><div class="line">    prevHtml += nextHtml;</div><div class="line">    callback(null, prevHtml);</div><div class="line">&#125;</div></pre></td></tr></table></figure></p><p>3.页面请求把Token带回来</p><blockquote><p>页面请求带着自定义的Token回传，注意，这个地方可以自己实现一些算法和混淆的东西。我这里提供一个东西。就是通过字符串拆分，把生成的Token放在html中，获取的时候也是随机的。达到每次获取都不一样。<br>记住标签随机，id值随机生成，在server端输出给html。</p></blockquote><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div></pre></td><td class="code"><pre><div class="line">&lt;samp id=<span class="string">"_CWXF0"</span> style=<span class="string">"display:none;"</span>&gt;f&lt;/samp&gt;</div><div class="line">&lt;i id=<span class="string">"_CWXF1"</span> style=<span class="string">"display:none;"</span>&gt;k&lt;/i&gt;</div><div class="line">&lt;sub id=<span class="string">"_CWXF2"</span> style=<span class="string">"display:none;"</span>&gt;2&lt;/sub&gt;</div><div class="line">&lt;tt id=<span class="string">"_CWXF3"</span> style=<span class="string">"display:none;"</span>&gt;d&lt;/tt&gt;</div><div class="line">&lt;bdo id=<span class="string">"_CWXF4"</span> style=<span class="string">"display:none;"</span>&gt;f&lt;/bdo&gt;</div><div class="line">&lt;b id=<span class="string">"_CWXF5"</span> style=<span class="string">"display:none;"</span>&gt;d&lt;/b&gt;</div><div class="line">&lt;cite id=<span class="string">"_CWXF6"</span> style=<span class="string">"display:none;"</span>&gt;7&lt;/cite&gt;</div><div class="line">&lt;tt id=<span class="string">"_CWXF7"</span> style=<span class="string">"display:none;"</span>&gt;b&lt;/tt&gt;</div><div class="line">&lt;code id=<span class="string">"_CWXF8"</span> style=<span class="string">"display:none;"</span>&gt;e&lt;/code&gt;</div><div class="line">&lt;dfn id=<span class="string">"_CWXF9"</span> style=<span class="string">"display:none;"</span>&gt;g&lt;/dfn&gt;</div><div class="line">&lt;time id=<span class="string">"_CWXF10"</span> style=<span class="string">"display:none;"</span>&gt;3&lt;/time&gt;</div><div class="line">&lt;code id=<span class="string">"_CWXF11"</span> style=<span class="string">"display:none;"</span>&gt;8&lt;/code&gt;</div><div class="line">&lt;sub id=<span class="string">"_CWXF12"</span> style=<span class="string">"display:none;"</span>&gt;1&lt;/sub&gt;</div><div class="line">&lt;code id=<span class="string">"_CWXF13"</span> style=<span class="string">"display:none;"</span>&gt;a&lt;/code&gt;</div><div class="line">&lt;em id=<span class="string">"_CWXF14"</span> style=<span class="string">"display:none;"</span>&gt;o&lt;/em&gt;</div><div class="line">&lt;bdo id=<span class="string">"_CWXF15"</span> style=<span class="string">"display:none;"</span>&gt;b&lt;/bdo&gt;</div><div class="line">&lt;i id=<span class="string">"_CWXF16"</span> style=<span class="string">"display:none;"</span>&gt;d&lt;/i&gt;</div><div class="line">&lt;i id=<span class="string">"_CWXF17"</span> style=<span class="string">"display:none;"</span>&gt;e&lt;/i&gt;</div><div class="line">&lt;sup id=<span class="string">"_CWXF18"</span> style=<span class="string">"display:none;"</span>&gt;j&lt;/sup&gt;</div><div class="line">&lt;small id=<span class="string">"_CWXF19"</span> style=<span class="string">"display:none;"</span>&gt;9&lt;/small&gt;</div><div class="line">&lt;code id=<span class="string">"_CWXF20"</span> style=<span class="string">"display:none;"</span>&gt;m&lt;/code&gt;</div><div class="line">&lt;em id=<span class="string">"_CWXF21"</span> style=<span class="string">"display:none;"</span>&gt;4&lt;/em&gt;</div><div class="line">&lt;small id=<span class="string">"_CWXF22"</span> style=<span class="string">"display:none;"</span>&gt;9&lt;/small&gt;</div><div class="line">&lt;cite id=<span class="string">"_CWXF23"</span> style=<span class="string">"display:none;"</span>&gt;c&lt;/cite&gt;</div><div class="line">&lt;abbr id=<span class="string">"_CWXF24"</span> style=<span class="string">"display:none;"</span>&gt;g&lt;/abbr&gt;</div><div class="line">&lt;tt id=<span class="string">"_CWXF25"</span> style=<span class="string">"display:none;"</span>&gt;5&lt;/tt&gt;</div><div class="line">&lt;code id=<span class="string">"_CWXF26"</span> style=<span class="string">"display:none;"</span>&gt;h&lt;/code&gt;</div><div class="line">&lt;sup id=<span class="string">"_CWXF27"</span> style=<span class="string">"display:none;"</span>&gt;6&lt;/sup&gt;</div><div class="line">&lt;sub id=<span class="string">"_CWXF28"</span> style=<span class="string">"display:none;"</span>&gt;5&lt;/sub&gt;</div><div class="line">&lt;span id=<span class="string">"_CWXF29"</span> style=<span class="string">"display:none;"</span>&gt;f&lt;/span&gt;</div><div class="line">&lt;sup id=<span class="string">"_CWXF30"</span> style=<span class="string">"display:none;"</span>&gt;0&lt;/sup&gt;</div><div class="line">&lt;i id=<span class="string">"_CWXF31"</span> style=<span class="string">"display:none;"</span>&gt;3&lt;/i&gt;</div><div class="line">&lt;label id=<span class="string">"_CWXF32"</span> style=<span class="string">"display:none;"</span>&gt;7&lt;/label&gt;</div><div class="line">&lt;span id=<span class="string">"_CWXF33"</span> style=<span class="string">"display:none;"</span>&gt;e&lt;/span&gt;</div><div class="line">&lt;code id=<span class="string">"_CWXF34"</span> style=<span class="string">"display:none;"</span>&gt;9&lt;/code&gt;</div><div class="line">&lt;label id=<span class="string">"_CWXF35"</span> style=<span class="string">"display:none;"</span>&gt;6&lt;/label&gt;</div><div class="line">&lt;bdo id=<span class="string">"_CWXF36"</span> style=<span class="string">"display:none;"</span>&gt;3&lt;/bdo&gt;</div><div class="line">&lt;code id=<span class="string">"_CWXF37"</span> style=<span class="string">"display:none;"</span>&gt;b&lt;/code&gt;</div><div class="line">&lt;cite id=<span class="string">"_CWXF38"</span> style=<span class="string">"display:none;"</span>&gt;3&lt;/cite&gt;</div><div class="line">&lt;acronym id=<span class="string">"_CWXF39"</span> style=<span class="string">"display:none;"</span>&gt;3&lt;/acronym&gt;</div><div class="line">&lt;sub id=<span class="string">"_CWXF40"</span> style=<span class="string">"display:none;"</span>&gt;m&lt;/sub&gt;</div><div class="line">&lt;dfn id=<span class="string">"_CWXF41"</span> style=<span class="string">"display:none;"</span>&gt;8&lt;/dfn&gt;</div><div class="line">&lt;map id=<span class="string">"_CWXF42"</span> style=<span class="string">"display:none;"</span>&gt;o&lt;/map&gt;</div><div class="line">&lt;strong id=<span class="string">"_CWXF43"</span> style=<span class="string">"display:none;"</span>&gt;9&lt;/strong&gt;</div><div class="line">&lt;sup id=<span class="string">"_CWXF44"</span> style=<span class="string">"display:none;"</span>&gt;j&lt;/sup&gt;</div><div class="line">&lt;em id=<span class="string">"_CWXF45"</span> style=<span class="string">"display:none;"</span>&gt;d&lt;/em&gt;</div><div class="line">&lt;script&gt;</div><div class="line">(<span class="keyword">function</span>(w)&#123;</div><div class="line">    var r = <span class="string">""</span>;</div><div class="line">    <span class="keyword">function</span> g(id)&#123;</div><div class="line">        <span class="built_in">return</span> document.getElementById(id).innerHTML;</div><div class="line">    &#125;</div><div class="line">    r += g(<span class="string">"_CWXF0"</span>);r += g(<span class="string">"_CWXF1"</span>);r += g(<span class="string">"_CWXF2"</span>);r += g(<span class="string">"_CWXF3"</span>);</div><div class="line">    r += g(<span class="string">"_CWXF4"</span>);r += g(<span class="string">"_CWXF5"</span>);r += g(<span class="string">"_CWXF6"</span>);r += g(<span class="string">"_CWXF7"</span>);</div><div class="line">    r += g(<span class="string">"_CWXF8"</span>);r += g(<span class="string">"_CWXF9"</span>);r += g(<span class="string">"_CWXF10"</span>);r += g(<span class="string">"_CWXF11"</span>);</div><div class="line">    r += g(<span class="string">"_CWXF12"</span>);r += g(<span class="string">"_CWXF13"</span>);r += g(<span class="string">"_CWXF14"</span>);r += g(<span class="string">"_CWXF15"</span>);</div><div class="line">    r += g(<span class="string">"_CWXF16"</span>);r += g(<span class="string">"_CWXF17"</span>);r += g(<span class="string">"_CWXF18"</span>);r += g(<span class="string">"_CWXF19"</span>);</div><div class="line">    r += g(<span class="string">"_CWXF20"</span>);r += g(<span class="string">"_CWXF21"</span>);r += g(<span class="string">"_CWXF22"</span>);r += g(<span class="string">"_CWXF23"</span>);</div><div class="line">    r += g(<span class="string">"_CWXF24"</span>);r += g(<span class="string">"_CWXF25"</span>);r += g(<span class="string">"_CWXF26"</span>);r += g(<span class="string">"_CWXF27"</span>);</div><div class="line">    r += g(<span class="string">"_CWXF28"</span>);r += g(<span class="string">"_CWXF29"</span>);r += g(<span class="string">"_CWXF30"</span>);r += g(<span class="string">"_CWXF31"</span>);</div><div class="line">    r += g(<span class="string">"_CWXF32"</span>);r += g(<span class="string">"_CWXF33"</span>);r += g(<span class="string">"_CWXF34"</span>);r += g(<span class="string">"_CWXF35"</span>);</div><div class="line">    r += g(<span class="string">"_CWXF36"</span>);r += g(<span class="string">"_CWXF37"</span>);r += g(<span class="string">"_CWXF38"</span>);r += g(<span class="string">"_CWXF39"</span>);</div><div class="line">    r += g(<span class="string">"_CWXF40"</span>);r += g(<span class="string">"_CWXF41"</span>);r += g(<span class="string">"_CWXF42"</span>);r += g(<span class="string">"_CWXF43"</span>);</div><div class="line">    r += g(<span class="string">"_CWXF44"</span>);r += g(<span class="string">"_CWXF45"</span>);</div><div class="line">    w.tokenName=r;</div><div class="line">&#125;)(window)</div><div class="line">&lt;/script&gt;</div></pre></td></tr></table></figure><p>4.校验token是否合法</p><blockquote><p>在路由的地方加入拦截器，达到获取Token的目的，这里为了统一处理前端，建议放在header中，传递，你可以在前端统一封装的ajax处统一处理，以达到不影响业务代码的目的。<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">verifyToken(req, res, next) &#123;</div><div class="line">    <span class="keyword">if</span> (req.headers[<span class="string">'token_fe'</span>]) &#123;</div><div class="line">        next();</div><div class="line">    &#125; <span class="keyword">else</span> &#123;</div><div class="line">        res.jsonp(&#123;</div><div class="line">            code: -1,</div><div class="line">            ret: <span class="literal">false</span>,</div><div class="line">            msg: <span class="string">'access not vaildate'</span></div><div class="line">        &#125;);</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p></blockquote><p>这样就实现了最简单的Token防刷,当然重要的是，你可以把token放在内存中，内存中加入过期时间，和有效的规则，比如，一分钟这个Token请求多少次。就不能再次请求等。可以可以注入IP，以IP的模式来校验不能多次请求。</p>]]></content>
     
@@ -70,16 +150,18 @@
     </summary>
     
     
+      <category term="读书笔记" scheme="http://toddy.wang/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
   </entry>
   
   <entry>
     <title>读书笔记</title>
-    <link href="http://toddy.wang/2017/11/06/dev-reading/"/>
-    <id>http://toddy.wang/2017/11/06/dev-reading/</id>
+    <link href="http://toddy.wang/2017/11/06/1.%5Breading%5Ddev-reading/"/>
+    <id>http://toddy.wang/2017/11/06/1.[reading]dev-reading/</id>
     <published>2017-11-06T12:50:45.000Z</published>
-    <updated>2017-11-07T03:59:31.000Z</updated>
+    <updated>2017-11-07T08:03:54.000Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="读书笔记"><a href="#读书笔记" class="headerlink" title="读书笔记"></a>读书笔记</h1><p>前端实用的技术整理笔记</p><p>目录</p><ul><li><a href="/2017/11/06/node简单防刷">node简单的安全防刷</a></li><li>javascript设计模式</li><li><a href="/2017/11/07/yield">yield &amp; yield*</a></li><li><a href="/2017/11/07/webpack">webpack &amp;&amp; webpack3</a></li><li>babel</li><li>express</li><li>koa &amp; koa2</li><li>vsc工具</li><li>…</li></ul>]]></content>
+    <content type="html"><![CDATA[<h1 id="读书笔记"><a href="#读书笔记" class="headerlink" title="读书笔记"></a>读书笔记</h1><p>前端实用的技术整理笔记</p><p>目录</p><ul><li>es6读书笔记</li><li><a href="/2017/11/06/1.[reading]node简单防刷">node简单的安全防刷</a></li><li>javascript设计模式</li><li><a href="/2017/11/07/1.[reading]yield">yield &amp; yield*</a></li><li><a href="/2017/11/07/1.[reading]webpack简单介绍">webpack &amp;&amp; webpack3</a></li><li>babel</li><li>express</li><li>koa &amp; koa2</li><li>vsc工具</li><li>如何完成前端面试</li><li>…</li></ul>]]></content>
     
     <summary type="html">
     
@@ -88,11 +170,14 @@
         &lt;h1 id=&quot;读书笔记&quot;&gt;&lt;a href=&quot;#读书笔记&quot; class=&quot;headerlink&quot; title=&quot;读书笔记&quot;&gt;&lt;/a&gt;读书笔记&lt;/h1&gt;&lt;p&gt;前端实用的技术整理笔记&lt;/p&gt;
 &lt;p&gt;目录&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;/2017/11/06/node简单
+&lt;li&gt;es6读书笔记&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/
       
     
     </summary>
     
+    
+      <category term="读书笔记" scheme="http://toddy.wang/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
@@ -193,10 +278,10 @@
   
   <entry>
     <title>webpack从入门到精通（一）</title>
-    <link href="http://toddy.wang/2016/06/17/webpack%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A%EF%BC%88%E4%B8%80%EF%BC%89/"/>
-    <id>http://toddy.wang/2016/06/17/webpack从入门到精通（一）/</id>
+    <link href="http://toddy.wang/2016/06/17/1.%5Breading%5Dwebpack%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A%EF%BC%88%E4%B8%80%EF%BC%89/"/>
+    <id>http://toddy.wang/2016/06/17/1.[reading]webpack从入门到精通（一）/</id>
     <published>2016-06-17T10:23:44.000Z</published>
-    <updated>2017-10-27T09:31:42.000Z</updated>
+    <updated>2017-11-07T07:52:20.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="什么是webpack"><a href="#什么是webpack" class="headerlink" title="什么是webpack"></a>什么是webpack</h2><p>事实上它是一个打包工具，而不是像RequireJS或SeaJS这样的模块加载器，通过使用Webpack，能够像Node.js一样处理依赖关系，然后解析出模块之间的依赖，将代码打包</p><h2 id="webpack安装步骤"><a href="#webpack安装步骤" class="headerlink" title="webpack安装步骤"></a>webpack安装步骤</h2><ol><li>首先得有Node.js</li><li><p>其次全局安装webpack</p><pre><code>npm install -g webpack</code></pre></li><li><p>在项目目录中安装webpack和插件</p><pre><code>npm install —save-dev webpack</code></pre></li><li><p>配置webpack</p></li></ol><h2 id="webpack配置"><a href="#webpack配置" class="headerlink" title="webpack配置"></a>webpack配置</h2><p>默认使用webpack.config.js</p><pre><code>var path = require(&apos;path&apos;);module.exports = {    entry:&apos;./jsx/app.jsx&apos;,    output:{        path: path.join(__dirname , &quot;/build&quot;),        filename:&apos;app.js&apos;    },    module:{        loaders:[            {                test:/\.(js|jsx)$/,                loaders:[&apos;babel&apos;],                exclude:[path.join(__dirname , &quot;/build&quot;)]            }        ]    }};</code></pre><p>其中<em>entry</em>是入口文件，<em>output</em>是编译后输出文件，<em>module</em>中<em>loaders</em>是解析操作</p><p>##未完待续</p>]]></content>
     
@@ -210,7 +295,7 @@
     </summary>
     
     
-      <category term="分享日志" scheme="http://toddy.wang/tags/%E5%88%86%E4%BA%AB%E6%97%A5%E5%BF%97/"/>
+      <category term="读书笔记" scheme="http://toddy.wang/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
