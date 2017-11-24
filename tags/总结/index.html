@@ -3,20 +3,18 @@
 <head>
     <meta charset="utf-8">
     
-    <title>webpack简单介绍 | 小T在加油</title>
+    <title>标签: 总结 | 小T在加油</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="description" content="webpack简介什么是webpackWebPack可以看做是模块打包机：它做的事情是，分析你的项目结构，找到JavaScript模块以及其它的一些浏览器不能直接运行的拓展语言（Scss，TypeScript等），并将其转换和打包为合适的格式供浏览器使用。 为什么webpack？现今的很多网页其实可以看做是功能丰富的应">
-<meta name="keywords" content="读书笔记">
-<meta property="og:type" content="article">
-<meta property="og:title" content="webpack简单介绍">
-<meta property="og:url" content="http://toddy.wang/2017/11/07/1.[reading]webpack简单介绍/index.html">
+    <meta name="description" content="做最好的前端分享">
+<meta property="og:type" content="website">
+<meta property="og:title" content="小T在加油">
+<meta property="og:url" content="http://toddy.wang/tags/总结/index.html">
 <meta property="og:site_name" content="小T在加油">
-<meta property="og:description" content="webpack简介什么是webpackWebPack可以看做是模块打包机：它做的事情是，分析你的项目结构，找到JavaScript模块以及其它的一些浏览器不能直接运行的拓展语言（Scss，TypeScript等），并将其转换和打包为合适的格式供浏览器使用。 为什么webpack？现今的很多网页其实可以看做是功能丰富的应用，它们拥有着复杂的JavaScript代码和一大堆依赖包。为了简化开发的复杂度">
+<meta property="og:description" content="做最好的前端分享">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2017-11-07T07:52:29.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="webpack简单介绍">
-<meta name="twitter:description" content="webpack简介什么是webpackWebPack可以看做是模块打包机：它做的事情是，分析你的项目结构，找到JavaScript模块以及其它的一些浏览器不能直接运行的拓展语言（Scss，TypeScript等），并将其转换和打包为合适的格式供浏览器使用。 为什么webpack？现今的很多网页其实可以看做是功能丰富的应用，它们拥有着复杂的JavaScript代码和一大堆依赖包。为了简化开发的复杂度">
+<meta name="twitter:title" content="小T在加油">
+<meta name="twitter:description" content="做最好的前端分享">
     
 
     
@@ -173,127 +171,45 @@
 </aside>
 
             
-            <section id="main"><article id="post-1.[reading]webpack简单介绍" class="article article-type-post" itemscope itemprop="blogPost">
-    <div class="article-inner">
-        
-        
-            <header class="article-header">
+            <section id="main">
+<div class="timeline timeline-wrap">
+    <div class="timeline-row timeline-row-major">
+        <span class="node"><i class="fa fa-tag"></i></span>
+        <h1 class="title">#总结</h1>
+    </div>
+    
+        <div class="timeline-row">
+            <span class="node"></span>
+            <div class="content">
                 
     
-        <h1 class="article-title" itemprop="name">
-            webpack简单介绍
+        <h1 itemprop="name">
+            <a class="timeline-article-title" href="/2017/11/24/前端Date-now问题分析以及解决方案/">前端Date.now问题分析以及解决方案</a>
         </h1>
     
 
-                
-                    <div class="article-meta">
-                        
+                <div class="article-meta">
+                    
     <div class="article-date">
         <i class="fa fa-calendar"></i>
-        <a href="/2017/11/07/1.[reading]webpack简单介绍/">
-            <time datetime="2017-11-07T03:59:12.000Z" itemprop="datePublished">2017-11-07</time>
+        <a href="/2017/11/24/前端Date-now问题分析以及解决方案/">
+            <time datetime="2017-11-24T07:44:02.000Z" itemprop="datePublished">2017-11-24</time>
         </a>
     </div>
 
 
-                        
-                        
+                    
+                    
     <div class="article-tag">
         <i class="fa fa-tag"></i>
-        <a class="tag-link" href="/tags/读书笔记/">读书笔记</a>
+        <a class="tag-link" href="/tags/总结/">总结</a>
     </div>
 
-                        
-                    </div>
-                
-            </header>
-        
-        
-        <div class="article-entry" itemprop="articleBody">
-        
-            
-            <h2 id="webpack简介"><a href="#webpack简介" class="headerlink" title="webpack简介"></a>webpack简介</h2><h3 id="什么是webpack"><a href="#什么是webpack" class="headerlink" title="什么是webpack"></a>什么是webpack</h3><p>WebPack可以看做是模块打包机：它做的事情是，分析你的项目结构，找到JavaScript模块以及其它的一些浏览器不能直接运行的拓展语言（Scss，TypeScript等），并将其转换和打包为合适的格式供浏览器使用。</p>
-<h3 id="为什么webpack？"><a href="#为什么webpack？" class="headerlink" title="为什么webpack？"></a>为什么webpack？</h3><p>现今的很多网页其实可以看做是功能丰富的应用，它们拥有着复杂的JavaScript代码和一大堆依赖包。为了简化开发的复杂度，前端社区涌现出了很多好的实践方法</p>
-<p>模块化，让我们可以把复杂的程序细化为小的文件;<br>类似于TypeScript这种在JavaScript基础上拓展的开发语言：使我们能够实现目前版本的JavaScript不能直接使用的特性，并且之后还能转换为JavaScript文件使浏览器可以识别；<br>Scss，less等CSS预处理器<br>…<br>这些改进确实大大的提高了我们的开发效率，但是利用它们开发的文件往往需要进行额外的处理才能让浏览器识别,而手动处理又是非常繁琐的，这就为WebPack类的工具的出现提供了需求。</p>
-<h2 id="webpack配置"><a href="#webpack配置" class="headerlink" title="webpack配置"></a>webpack配置</h2><h2 id="webpack插件"><a href="#webpack插件" class="headerlink" title="webpack插件"></a>webpack插件</h2><h2 id="webpack插件编写"><a href="#webpack插件编写" class="headerlink" title="webpack插件编写"></a>webpack插件编写</h2><h2 id="webpack2-amp-amp-webpack3？"><a href="#webpack2-amp-amp-webpack3？" class="headerlink" title="webpack2&amp; &amp; webpack3？"></a>webpack2&amp; &amp; webpack3？</h2>
-        
-        </div>
-        <footer class="article-footer">
-            <div class="share-container">
-
-
-    <div class="bdsharebuttonbox">
-    <a href="#" class="bds_more" data-cmd="more">分享到：</a>
-    <a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间">QQ空间</a>
-    <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博">新浪微博</a>
-    <a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博">腾讯微博</a>
-    <a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网">人人网</a>
-    <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信">微信</a>
-</div>
-<script>
-window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{"bdSize":16}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
-</script>
-<style>
-    .bdshare_popup_box {
-        border-radius: 4px;
-        border: #e1e1e1 solid 1px;
-    }
-    .bdshare-button-style0-16 a,
-    .bdshare-button-style0-16 .bds_more {
-        padding-left: 20px;
-        margin: 6px 10px 6px 0;
-    }
-    .bdshare_dialog_list a,
-    .bdshare_popup_list a,
-    .bdshare_popup_bottom a {
-        font-family: 'Microsoft Yahei';
-    }
-    .bdshare_popup_top {
-        display: none;
-    }
-    .bdshare_popup_bottom {
-        height: auto;
-        padding: 5px;
-    }
-</style>
-
-
-</div>
-
-            
-    
-
-        </footer>
-    </div>
-    
-        
-<nav id="article-nav">
-    
-        <a href="/2017/11/07/1.[reading]es6读书笔记/" id="article-nav-newer" class="article-nav-link-wrap">
-            <strong class="article-nav-caption">上一篇</strong>
-            <div class="article-nav-title">
-                
-                    es6读书笔记
-                
+                </div>
             </div>
-        </a>
+        </div>
     
-    
-        <a href="/2017/11/07/1.[reading]yield/" id="article-nav-older" class="article-nav-link-wrap">
-            <strong class="article-nav-caption">下一篇</strong>
-            <div class="article-nav-title">yield</div>
-        </a>
-    
-</nav>
-
-
-    
-</article>
-
-
-    
-    
-
+</div>
 </section>
             
                 

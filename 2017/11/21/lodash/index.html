@@ -3,20 +3,20 @@
 <head>
     <meta charset="utf-8">
     
-    <title>webpack简单介绍 | 小T在加油</title>
+    <title>lodash 解析 | 小T在加油</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="description" content="webpack简介什么是webpackWebPack可以看做是模块打包机：它做的事情是，分析你的项目结构，找到JavaScript模块以及其它的一些浏览器不能直接运行的拓展语言（Scss，TypeScript等），并将其转换和打包为合适的格式供浏览器使用。 为什么webpack？现今的很多网页其实可以看做是功能丰富的应">
-<meta name="keywords" content="读书笔记">
+    <meta name="description" content="“Array” 方法 _.chunk(array, [size=1]);将数组（array）拆分成多个 size 长度的区块，并将这些区块组成一个新数组。 如果array 无法被分割成全部等长的区块，那么最后剩余的元素将组成一个区块。参数array (Array): 需要处理的数组[size=1] (number): ">
+<meta name="keywords" content="lodash">
 <meta property="og:type" content="article">
-<meta property="og:title" content="webpack简单介绍">
-<meta property="og:url" content="http://toddy.wang/2017/11/07/1.[reading]webpack简单介绍/index.html">
+<meta property="og:title" content="lodash 解析">
+<meta property="og:url" content="http://toddy.wang/2017/11/21/lodash/index.html">
 <meta property="og:site_name" content="小T在加油">
-<meta property="og:description" content="webpack简介什么是webpackWebPack可以看做是模块打包机：它做的事情是，分析你的项目结构，找到JavaScript模块以及其它的一些浏览器不能直接运行的拓展语言（Scss，TypeScript等），并将其转换和打包为合适的格式供浏览器使用。 为什么webpack？现今的很多网页其实可以看做是功能丰富的应用，它们拥有着复杂的JavaScript代码和一大堆依赖包。为了简化开发的复杂度">
+<meta property="og:description" content="“Array” 方法 _.chunk(array, [size=1]);将数组（array）拆分成多个 size 长度的区块，并将这些区块组成一个新数组。 如果array 无法被分割成全部等长的区块，那么最后剩余的元素将组成一个区块。参数array (Array): 需要处理的数组[size=1] (number): 每个数组区块的长度返回(Array): 返回一个包含拆分区块的新数组（愚人码头注">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2017-11-07T07:52:29.000Z">
+<meta property="og:updated_time" content="2017-11-21T10:35:13.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="webpack简单介绍">
-<meta name="twitter:description" content="webpack简介什么是webpackWebPack可以看做是模块打包机：它做的事情是，分析你的项目结构，找到JavaScript模块以及其它的一些浏览器不能直接运行的拓展语言（Scss，TypeScript等），并将其转换和打包为合适的格式供浏览器使用。 为什么webpack？现今的很多网页其实可以看做是功能丰富的应用，它们拥有着复杂的JavaScript代码和一大堆依赖包。为了简化开发的复杂度">
+<meta name="twitter:title" content="lodash 解析">
+<meta name="twitter:description" content="“Array” 方法 _.chunk(array, [size=1]);将数组（array）拆分成多个 size 长度的区块，并将这些区块组成一个新数组。 如果array 无法被分割成全部等长的区块，那么最后剩余的元素将组成一个区块。参数array (Array): 需要处理的数组[size=1] (number): 每个数组区块的长度返回(Array): 返回一个包含拆分区块的新数组（愚人码头注">
     
 
     
@@ -173,7 +173,7 @@
 </aside>
 
             
-            <section id="main"><article id="post-1.[reading]webpack简单介绍" class="article article-type-post" itemscope itemprop="blogPost">
+            <section id="main"><article id="post-lodash" class="article article-type-post" itemscope itemprop="blogPost">
     <div class="article-inner">
         
         
@@ -181,7 +181,7 @@
                 
     
         <h1 class="article-title" itemprop="name">
-            webpack简单介绍
+            lodash 解析
         </h1>
     
 
@@ -190,8 +190,8 @@
                         
     <div class="article-date">
         <i class="fa fa-calendar"></i>
-        <a href="/2017/11/07/1.[reading]webpack简单介绍/">
-            <time datetime="2017-11-07T03:59:12.000Z" itemprop="datePublished">2017-11-07</time>
+        <a href="/2017/11/21/lodash/">
+            <time datetime="2017-11-21T10:27:37.000Z" itemprop="datePublished">2017-11-21</time>
         </a>
     </div>
 
@@ -200,10 +200,15 @@
                         
     <div class="article-tag">
         <i class="fa fa-tag"></i>
-        <a class="tag-link" href="/tags/读书笔记/">读书笔记</a>
+        <a class="tag-link" href="/tags/lodash/">lodash</a>
     </div>
 
                         
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        Toddy
+    </div>
+
                     </div>
                 
             </header>
@@ -212,10 +217,12 @@
         <div class="article-entry" itemprop="articleBody">
         
             
-            <h2 id="webpack简介"><a href="#webpack简介" class="headerlink" title="webpack简介"></a>webpack简介</h2><h3 id="什么是webpack"><a href="#什么是webpack" class="headerlink" title="什么是webpack"></a>什么是webpack</h3><p>WebPack可以看做是模块打包机：它做的事情是，分析你的项目结构，找到JavaScript模块以及其它的一些浏览器不能直接运行的拓展语言（Scss，TypeScript等），并将其转换和打包为合适的格式供浏览器使用。</p>
-<h3 id="为什么webpack？"><a href="#为什么webpack？" class="headerlink" title="为什么webpack？"></a>为什么webpack？</h3><p>现今的很多网页其实可以看做是功能丰富的应用，它们拥有着复杂的JavaScript代码和一大堆依赖包。为了简化开发的复杂度，前端社区涌现出了很多好的实践方法</p>
-<p>模块化，让我们可以把复杂的程序细化为小的文件;<br>类似于TypeScript这种在JavaScript基础上拓展的开发语言：使我们能够实现目前版本的JavaScript不能直接使用的特性，并且之后还能转换为JavaScript文件使浏览器可以识别；<br>Scss，less等CSS预处理器<br>…<br>这些改进确实大大的提高了我们的开发效率，但是利用它们开发的文件往往需要进行额外的处理才能让浏览器识别,而手动处理又是非常繁琐的，这就为WebPack类的工具的出现提供了需求。</p>
-<h2 id="webpack配置"><a href="#webpack配置" class="headerlink" title="webpack配置"></a>webpack配置</h2><h2 id="webpack插件"><a href="#webpack插件" class="headerlink" title="webpack插件"></a>webpack插件</h2><h2 id="webpack插件编写"><a href="#webpack插件编写" class="headerlink" title="webpack插件编写"></a>webpack插件编写</h2><h2 id="webpack2-amp-amp-webpack3？"><a href="#webpack2-amp-amp-webpack3？" class="headerlink" title="webpack2&amp; &amp; webpack3？"></a>webpack2&amp; &amp; webpack3？</h2>
+            <h2 id="“Array”-方法"><a href="#“Array”-方法" class="headerlink" title="“Array” 方法"></a>“Array” 方法</h2><blockquote>
+<p>_.chunk(array, [size=1]);<br>将数组（array）拆分成多个 size 长度的区块，并将这些区块组成一个新数组。 如果array 无法被分割成全部等长的区块，那么最后剩余的元素将组成一个区块。<br>参数<br>array (Array): 需要处理的数组<br>[size=1] (number): 每个数组区块的长度<br>返回<br>(Array): 返回一个包含拆分区块的新数组（愚人码头注：相当于一个二维数组）。</p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">例子</span><br><span class="line"></span><br><span class="line">_.chunk([<span class="string">'a'</span>, <span class="string">'b'</span>, <span class="string">'c'</span>, <span class="string">'d'</span>], 2);</span><br><span class="line">// =&gt; [[<span class="string">'a'</span>, <span class="string">'b'</span>], [<span class="string">'c'</span>, <span class="string">'d'</span>]]</span><br><span class="line"> </span><br><span class="line">_.chunk([<span class="string">'a'</span>, <span class="string">'b'</span>, <span class="string">'c'</span>, <span class="string">'d'</span>], 3);</span><br><span class="line">// =&gt; [[<span class="string">'a'</span>, <span class="string">'b'</span>, <span class="string">'c'</span>], [<span class="string">'d'</span>]]</span><br></pre></td></tr></table></figure>
+<p>源码：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">function</span> chunk(array, size, guard) &#123;</span><br><span class="line">    <span class="keyword">if</span> ((guard ? isIterateeCall(array, size, guard) : size === undefined)) &#123;</span><br><span class="line">        size = 1;</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        size = nativeMax(toInteger(size), 0);</span><br><span class="line">    &#125;</span><br><span class="line">    var length = array == null ? 0 : array.length;</span><br><span class="line">    <span class="keyword">if</span> (!length || size &lt; 1) &#123;</span><br><span class="line">        <span class="built_in">return</span> [];</span><br><span class="line">    &#125;</span><br><span class="line">    var index = 0,</span><br><span class="line">        resIndex = 0,</span><br><span class="line">        result = Array(nativeCeil(length / size));</span><br><span class="line"></span><br><span class="line">    <span class="keyword">while</span> (index &lt; length) &#123;</span><br><span class="line">        result[resIndex++] = baseSlice(array, index, (index += size));</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">return</span> result;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+
         
         </div>
         <footer class="article-footer">
@@ -269,19 +276,19 @@ window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMin
         
 <nav id="article-nav">
     
-        <a href="/2017/11/07/1.[reading]es6读书笔记/" id="article-nav-newer" class="article-nav-link-wrap">
+        <a href="/2017/11/24/前端Date-now问题分析以及解决方案/" id="article-nav-newer" class="article-nav-link-wrap">
             <strong class="article-nav-caption">上一篇</strong>
             <div class="article-nav-title">
                 
-                    es6读书笔记
+                    前端Date.now问题分析以及解决方案
                 
             </div>
         </a>
     
     
-        <a href="/2017/11/07/1.[reading]yield/" id="article-nav-older" class="article-nav-link-wrap">
+        <a href="/2017/11/14/1.[reading]express参数过滤/" id="article-nav-older" class="article-nav-link-wrap">
             <strong class="article-nav-caption">下一篇</strong>
-            <div class="article-nav-title">yield</div>
+            <div class="article-nav-title">express参数过滤</div>
         </a>
     
 </nav>
